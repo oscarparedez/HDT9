@@ -1,3 +1,7 @@
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class Main {
@@ -5,18 +9,21 @@ public class Main {
 	public static void main(String[] args) {
 		
         Scanner scan = new Scanner(System.in);
+        Traducir traducir = new Traducir();
         
-        System.out.println("INGRESE [1] PARA IMPLEMENTAR SPLAY TREE O [2] PARA IMPLEMENTAR BINARY TREE.");
+        System.out.println("INGRESE [1] PARA IMPLEMENTAR SPLAY TREE O [2] PARA IMPLEMENTAR HASHMAP.");
         int opcion = scan.nextInt();
-		
 		
         if(opcion == 1) {
         	
+        	
+        	
         } else if(opcion == 2) {
-            Association<String,String> association =new Association<>();
-            association.ordenarPalabras(association.house);
-            Traducir translator = new Traducir();
-            translator.traducirArchivo();
+        	HashMap_<String, String> mapa = traducir.armarDiccionario("HashMap");
+            
+        	
+        	
+        	System.out.println(traducir.traducirArchivo(mapa));
         }
         
 
