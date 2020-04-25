@@ -1,11 +1,8 @@
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		
         Scanner scan = new Scanner(System.in);
@@ -19,11 +16,20 @@ public class Main {
         	
         	
         } else if(opcion == 2) {
-        	HashMap_<String, String> mapa = traducir.armarDiccionario("HashMap");
-            
         	
+        	FactoryMap<String> fabrica = new FactoryMap<String>();
+        	Map<String, String> tipoDeMapa = fabrica.tipoMap("HashMap");
         	
-        	System.out.println(traducir.traducirArchivo(mapa));
+        
+        	Map<String, String> mapa;
+			try {
+				mapa = traducir.armarDiccionario(tipoDeMapa);
+	        	System.out.println(traducir.traducirArchivo(mapa));
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+
         }
         
 

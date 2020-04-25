@@ -1,4 +1,4 @@
-a	un, uno, una[Article]
+a	un
 aardvark	cerdo hormiguero
 aardvark	oso hormiguero[Noun]
 aardvarks	cerdos hormigueros
@@ -343,7 +343,7 @@ abound	abundar
 abounded	abundo/
 abounding	abundando
 abounds	abunda
-about	acerca, sobre, a punto de
+about	acerca
 about	más o menos, aproximadamente[Adverb]
 about	por todas partes[Adverb]
 about	de, sobre, acerca de; por[Preposition]
@@ -1811,7 +1811,7 @@ calisthenic	calisténico[Adjective]
 calisthenics	calistenia[Noun]
 call	llamar
 calla	aro palustre
-called	llamo/
+called	llamo
 calligrapher	cali/grafo[Noun]
 calligraphers	cali/grafos[Noun]
 calligraphic	caligra/fico[Noun]
@@ -2845,7 +2845,7 @@ dormitory	la residencia universitaria[Noun]
 doubt	dudar
 dove	la palomita[Noun]
 doves	las palomitas[Noun]
-down	abajo[Adverb]
+down	abajo
 download	bajar[Verb]
 dowry	dote[Noun]
 dozen	la docena
@@ -3173,7 +3173,7 @@ fiftieth	quincauge/simo (in a series)[Adjective]
 fiftieth	cincuentavo (part)[Adjective]
 fifty	cincuenta
 fig	el higo
-fight	lucha[Noun]
+fight	lucha
 fight	luchar[Verb]
 fight	pelear
 fighter	luchador[Noun]
@@ -4048,7 +4048,7 @@ lacuna	laguna[Noun]
 lacunae	lagunas[Noun]
 lacunar	lagunar[Noun]
 lad	muchacho
-lad	chico[Noun]
+lad	chico
 ladder	escalera
 ladder	escala[Noun]
 ladders	las escaleras[Noun]
@@ -4258,7 +4258,7 @@ list	la lista
 listen	escuchar
 literally	woertlich
 literature	la literatura
-little	chico[Adjective]
+little	chico
 little	pequen~o[Adjective]
 little	poco[Adjective]
 littler	menor
@@ -4968,8 +4968,7 @@ one	uno
 onion	cebolla
 onion	la cebolla
 onions	cebollas
-only	solamente
-open	             
+only	solamente            
 open	abierto
 open	abrir
 open	open
@@ -6591,8 +6590,7 @@ theme	tema
 themes	temas
 themselves	ellos mismos
 then	entonces
-thence	de alli/[Adverb]
-thence	desde alli/[Adverb]
+thence	de alli
 thenceforth	de alli/ en adelante[Adverb]
 thenceforth	desde entonces[Adverb]
 theocracy	teocracia[Noun]
@@ -6617,7 +6615,7 @@ therapies	tera/pias
 therapist	terape/uta
 therapists	terapeutas
 therapy	tera/pia
-there	alli/
+there	alli
 thereabout	alrededor
 thereabouts	en los alrededores
 thereafter	despue/s
@@ -6665,7 +6663,7 @@ thirties	los trenta
 thirtieth	trige/simo
 thirty	treinta
 thirty	trenta
-this	e/sto
+this	esto
 this	esta
 thorns	espinas
 thorny	espinoso
@@ -7310,7 +7308,7 @@ wet	mojado
 what	que[Preposition]
 whatever	lo que; que/[Pronoun]
 wheel	la rueda
-when	cuando[Adverb]
+when	cuando
 whenever	cada vez que[Adverb]
 where	donde
 where're	Donde esta?
@@ -7423,7 +7421,7 @@ yolk	yema de huevo
 yon	ahi/ alli/
 yonder	ahi/ alla/
 yore	antan~o
-you	tu/
+you	tu
 you	usted
 you	vosotros(plural/informal)
 you	vosotros(plural/informal)[Pronoun]
