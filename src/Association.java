@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class HashMap_<K,V> implements Map<K,V>
+public class Association<K,V> implements Map<K,V>
 {
     HashMap<K, V> m = new HashMap<K, V>();
 

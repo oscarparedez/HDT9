@@ -1,20 +1,21 @@
 import java.io.*;
 import java.util.*;
 
-public class Traducir {
+public class Operaciones {
 	
 //	DIRECTORIO PERSONAL DEL USUARIO
 	private String path = System.getProperty("user.dir");
 	File archivoEjemplo;
 
-	String traducirArchivo(Map<String, String> m){
+	//Método para importar el texto del archivo
+	String importarTexto(Map<String, String> m){
 		
 	    String lineaArmada = "";
 	    String texto = "";
 		
 	    try {
 	    	
-	    	archivoEjemplo = new File(path+"/src/ejemplo.txt");
+	    	archivoEjemplo = new File(path+"/ejemplo.txt");
 			Scanner scan = new Scanner(archivoEjemplo);
 			
 			while(scan.hasNextLine()) {
@@ -41,9 +42,10 @@ public class Traducir {
 	}
 
 	
-    Map<String, String> armarDiccionario(Map<String, String> m) throws Exception {
+    //Método para armar el diccionario
+	Map<String, String> armarDiccionario(Map<String, String> m) throws Exception {
     	
-        BufferedReader bufferedreader = new BufferedReader(new FileReader(path+"/src/Spanish.txt"));
+        BufferedReader bufferedreader = new BufferedReader(new FileReader(path+"/Spanish.txt"));
         String linea;
         String palabraAnterior = "";
     		
